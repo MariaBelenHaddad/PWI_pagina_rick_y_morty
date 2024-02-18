@@ -1,5 +1,11 @@
+import Navegation from "../../Components/Navegation"
+import SectionCards from "../../Components/SectionCards"
+
 export default function Characters(){
     return(
-        <p>Pagina Characters</p>
+        <div>
+            <Navegation hoja="Characters"/> 
+            <SectionCards/>
+        </div>
     )
 }

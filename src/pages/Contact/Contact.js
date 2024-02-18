@@ -1,5 +1,9 @@
+import Navegation from "../../Components/Navegation"
+
 export default function Contact(){
     return(
-        <p>Pagina Contact</p>
+        <div>
+            <Navegation hoja="Contact"/> 
+        </div>
     )
 }

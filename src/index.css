@@ -5,11 +5,8 @@ body {
   background-image: url("C:\Users\Maria Belem\Documents\1-DESARROLLO WEB\5- FRONT END\pagina_web_rick_y_morty\Material de referencia\rickymorty.jpg");
   background-size: cover;
   background-attachment: fixed;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+* {
   font-family: 'Raleway'; 
-
 }

@@ -1,0 +1,26 @@
+.sticky{
+    position: sticky;
+    top: 0px;
+    padding: 0px;
+}
+
+.barra-superior{
+    background-color:#344d67;
+    margin: 0%;
+    padding: 5%;
+}
+.barra-texto{
+    color: #6eccaf;
+}
+
+.s-active{
+    color: #344d67;
+    background-color: #6eccaf;
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.n-active{
+    color: #6eccaf;
+}
