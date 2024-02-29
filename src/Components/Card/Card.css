@@ -1,3 +1,33 @@
 .card{
     width: fit-content;
+    background-color: #223142;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+}
+.info-personaje{
+    color: rgb(110, 204, 175);
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-top: 2%;
+    text-align: center;
+}
+.btn-know-more{
+    background-color: #6eccaf;
+    width: fit-content;
+    align-self: end;
+}
+.btn-know-more:hover{
+    color: #6eccaf;
+}
+
+@media(max-width: 500px) {
+.card{
+    display: flex;
+    flex-direction: column;
+}
 }

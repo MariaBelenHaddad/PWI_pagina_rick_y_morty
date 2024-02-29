@@ -1,0 +1,27 @@
+.tarjeta-know-more{
+    background-color: #223142;
+    width: 400px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.btn-x{
+    background-color: #6eccaf;
+    width: fit-content;
+    align-self: end;
+    margin-bottom: 5%;
+}
+.list-group-item{
+    color:white;
+    font-size: 1.2rem;
+    padding-bottom: 7%;
+}
+
+@media(max-width: 500px) {
+    .tarjeta-know-more{
+        width: fit-content;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    }

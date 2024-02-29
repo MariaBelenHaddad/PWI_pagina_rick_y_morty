@@ -11,16 +11,16 @@ export default function Card({infoPersonaje}) {
     }
 
     return(
-       <div className="rounded bg-primary card p-2 d-flex flex-row gap-3">
-        <div>
-            <img src={infoPersonaje.image}/>
-            <h3>{infoPersonaje.name}</h3>
-            <button className="btn btn-success w-50 p-2" onClick={showMore}>Know More...</button>
-        </div>
+       <div className="rounded card p-2">
+            <div className='tarjeta'>
+                <img src={infoPersonaje.image}/>
+                <p className='info-personaje'>{infoPersonaje.name}</p>
+                <button className="btn w-50 p-2 btn-know-more" onClick={showMore}>Know More...</button>
+            </div>
 
-        {   //operador ternario condicion?accion-true:accion-false;
-            hide === false? <Description status={infoPersonaje.status} especie={infoPersonaje.species} genero={infoPersonaje.gender} origen={infoPersonaje.origin.name} setHide={setHide}/>:''//Si el estado es false me muestra el componente Description, si es true lo oculta
-        }
+            {   //operador ternario condicion?accion-true:accion-false;
+                hide === false? <Description status={infoPersonaje.status} especie={infoPersonaje.species} genero={infoPersonaje.gender} origen={infoPersonaje.origin.name} setHide={setHide}/>:''//Si el estado es false me muestra el componente Description, si es true lo oculta
+            }
 
        </div>
     )

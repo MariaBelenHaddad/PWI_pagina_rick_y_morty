@@ -1,0 +1,26 @@
+.sw-verde{
+    background-color: #344d67;
+    color: #b1f0dc;
+    width: fit-content;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+}
+.form-check-input{
+    background-color: #b1f0dc;
+}
+.form-check-label{
+    width: fit-content;
+    padding-left: 0.5rem;
+}
+.form-check-input:hover{
+    background-color: #223142;
+}
+.form-check-input:checked{
+    background-color: #223142;
+}
+

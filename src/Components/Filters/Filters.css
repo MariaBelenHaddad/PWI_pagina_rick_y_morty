@@ -1,0 +1,17 @@
+.section-filters{
+    margin-top: 3rem;
+}
+.titulo-filters{
+    color: #344d67;
+    font-size: 2rem;
+    margin: 0.5rem 0.5rem 0.5rem 2rem;
+}
+.filtros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
