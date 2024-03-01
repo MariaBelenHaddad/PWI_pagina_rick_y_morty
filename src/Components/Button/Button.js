@@ -1,7 +1,8 @@
 import "./Button.css";
+import {Link} from 'react-router-dom';
 
-export default function Button({nombre}){
+export default function Button({nombre, pasaje}){
     return(
-        <button className="btn btn-lg boton">{nombre}</button>
+        <Link className="btn btn-lg boton" to={pasaje}>{nombre}</Link>
     )
 }

@@ -1,8 +1,10 @@
 .bg-home{
     background-color:#ffffffe6;
+    width: 600px;
     height: fit-content;
     margin: 20%;
-    padding: 8% 2% 8% 2%;
+    padding: 5% 2% 5% 2%;
+    align-self: center;
 }
 .texto-h1{
     color: #344d67;

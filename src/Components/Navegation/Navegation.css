@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .sticky{
     position: sticky;
     top: 0px;
@@ -10,8 +13,9 @@
     padding: 5%;
 }
 
-.barra-texto{
+a > .barra-texto{
     color: #6eccaf;
+    font-size: 32px;
 }
 
 .s-active{

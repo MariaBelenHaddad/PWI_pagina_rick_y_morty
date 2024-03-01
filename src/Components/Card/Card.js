@@ -13,7 +13,7 @@ export default function Card({infoPersonaje}) {
     return(
        <div className="rounded card p-2">
             <div className='tarjeta'>
-                <img src={infoPersonaje.image}/>
+                <img src={infoPersonaje.image} alt='Imagen personaje'/>
                 <p className='info-personaje'>{infoPersonaje.name}</p>
                 <button className="btn w-50 p-2 btn-know-more" onClick={showMore}>Know More...</button>
             </div>

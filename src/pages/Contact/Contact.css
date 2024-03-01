@@ -1,0 +1,40 @@
+.bg-grey{
+    background-color: rgba(92, 117, 146, .9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center !important;
+}
+.text-contact{
+    color: #223142;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    font-size: 30px;
+}
+.text-p-negro{
+    color: #223142;
+    font-size: 24px;
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+label{
+    font-size: 18px;
+}
+.form-control{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+textarea{
+    height: 300px;
+}
+.boton-send{
+    background-color: #344d67;
+    color: white;
+}
